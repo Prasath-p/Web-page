@@ -1,0 +1,89 @@
+*{
+	font-family: sans-serif;
+}
+
+.container{
+	display: flex;
+}
+
+.box{
+	width: 200px;
+	margin: 50px;
+	margin-top: 10px;
+	
+}
+.nav{
+	background-color: white;
+	padding: 20px;
+	border-radius: 25px;
+	justify-content: space-between;
+	
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+	margin: 0 10px;
+}
+.nav a:hover{
+	color: blue;
+	transition: ease-in-out 100ms;
+}
+
+.icon{
+	margin: 60px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	height:150px;
+	width: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+.left{
+	height: auto;
+	background-color:grey;
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+
+
+}
+.right{
+	padding: 20px;
+	background-color: #34495E;
+	overflow: auto;
+}
+.content{
+	padding: 30px 10px;
+	color: white;
+}
+body{
+	height: 730px;
+}
+.link{
+	margin: 10px;
+	height:50px;
+	width: 50px;
+	border-radius:40px;
+}
+.line{
+	width:100%;
+}
+.fb{
+	margin: 10px;
+	height:50px;
+	width: 50px;
+	border-radius:40px;
+}
+.connect{
+	display: flex;
+
+}
+.login a{
+	text-decoration: none;
+	color: white;
+}
+.login a:hover{
+	transition: ease-in-out 100ms;
+}
